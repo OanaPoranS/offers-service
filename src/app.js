@@ -57,8 +57,10 @@ app.post('/offers/:id', async (req, res) => {
                 updatedOffer = { ...offer, timesPurchased: offer.limit, limitReached: true }
             } else {
                 updatedOffer = { ...offer, timesPurchased: ++offer.timesPurchased }
+                console.log(updatedOffer)
             }
             storedOffers[offer] = updatedOffer
+            console.log(storedOffers[offer])
             await storeOffers(storedOffers)
             res.json(updatedOffer)
         } else {

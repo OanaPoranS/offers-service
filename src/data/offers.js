@@ -7,7 +7,7 @@ async function getStoredOffers() {
 }
 
 function storeOffers(offers) {
-    return fs.writeFile('offers.json', JSON.stringify({ userOffers: offers || [] }))
+    return fs.writeFile('../offers.json', JSON.stringify({ userOffers: offers || [] }))
 }
 
 exports.getStoredOffers = getStoredOffers
