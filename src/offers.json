@@ -1,0 +1,32 @@
+{
+    "userOffers": [
+        {
+            "id": "123",
+            "title": "Bundle 1",
+            "limit": 0,
+            "timesPurchased": 0,
+            "limitReached": false
+        },
+        {
+            "id": "12464",
+            "title": "Bundle 2",
+            "limit": 2,
+            "timesPurchased": 0,
+            "limitReached": false
+        },
+        {
+            "id": "573626",
+            "title": "Bundle 3",
+            "limit": 1,
+            "timesPurchased": 0,
+            "limitReached": false
+        },
+        {
+            "id": "42342178",
+            "title": "Bundle 4",
+            "limit": 7,
+            "timesPurchased": 0,
+            "limitReached": false
+        }
+    ]
+}
